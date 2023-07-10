@@ -1,0 +1,27 @@
+:root{
+    --fuentePrincipal: 'Pt Sans',sans-serif;
+    --fuenteSecundaria: 'Open Sans',sans-serif;
+
+    --primario:#784dc3;
+    --blanco:#ffffff;
+    --negro:#000000;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--fuenteSecundaria);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Globales */
+
