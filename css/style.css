@@ -222,3 +222,36 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/* Sobre nosotros */
+
+.sobre-nosotros__texto{
+    text-align: justify;
+}
+
+@media (min-width:768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+/* Curso */
+
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+@media (min-width:768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.curso:last-of-type{
+    border-bottom: 0;
+}
