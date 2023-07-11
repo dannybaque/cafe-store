@@ -78,6 +78,14 @@ img {
 
 /* Header texto */
 
+.webp .header{
+    background-image: url(../img/banner.webp);
+}
+
+.no-webp .header{
+    background-image: url(../img/banner.jpg);
+}
+
 .header{
     background-image: url(../img/banner.jpg);
     height: 60rem;
